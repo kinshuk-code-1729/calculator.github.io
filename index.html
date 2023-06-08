@@ -5,18 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator Application</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <h1>Calculator Application</h1>
-    <div>
-        <input type="text" id="n1" placeholder="Enter 1st number">&nbsp;
-        <input type="text" id="n2" placeholder="Enter 2nd number">&nbsp;
-        <select id="operation">
+        <h1>Calculator Application</h1>
+    <div id="root">
+        <div id="child1">
+            <div>
+                <span>1st Value :</span>
+                <input type="text" id="n1" placeholder="Enter 1st number">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <br>
+            <div>
+                <span>2nd Value :</span>
+                <input type="text" id="n2" placeholder="Enter 2nd number">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <br><br>
+            <span>Choose your Operation &nbsp;&nbsp;</span><select id="operation">
             <option value="add">Addition</option>
             <option value="sub">Subtraction</option>
             <option value="mul">Multiplication</option>
             <option value="div">Division</option>
         </select>
+        <br>
+            
+        </div>
         <br><br>
         <button id="calculate" onclick="calc()">Calculate</button>
         <h2 id="result"></h2>
