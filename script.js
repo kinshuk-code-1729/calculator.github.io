@@ -25,5 +25,5 @@ const calc =  ()=> {
         z = x / y;
     }
 
-    document.querySelector("#result").innerHTML =`Result value is : ${Math.round(z)}`;
+    document.querySelector("#result").innerHTML =`Result value is : ${Math.round(z*1000)/1000}`;
 }
