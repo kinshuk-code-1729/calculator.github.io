@@ -1,0 +1,94 @@
+*{
+    background-color:cyan;
+}
+#calculate{
+    color:rgb(226, 25, 25);
+    background-color:rgb(43, 194, 63);
+    font-weight:bold;
+    font-size:25px ;
+    border: 2px solid rgb(14, 54, 19) ;
+    border-radius: 25px ;
+}
+button:hover{
+    width: 150px;
+    height: 50px ;
+    color:rgb(192, 29, 29) ;
+}
+
+#result{
+    font-size: 25px ;
+    font-weight:bold;  
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 800;
+    width: 25%;
+    background-color: deeppink;
+    /* position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: reverse; */
+}
+
+h2:visited{
+    width: 200px;
+    height: 60px;
+
+}
+span{
+    font-size:27px;
+    font-weight:800;
+}
+
+#calculate{
+    width: 130px;
+    height: 40px;
+}
+input{
+    font-size:19px;
+    font-weight:500;
+}
+
+#operation{
+    font-size:25px;
+    font-weight:600;
+    background-color: chartreuse;
+}
+
+option{
+    font-size:25px;
+    font-weight:600;
+    background-color: chartreuse;
+}
+h1{
+    display: flex;
+    width: 330px;
+    border : 2px solid rgb(6, 66, 24) ;
+    justify-content: center;
+    align-items: center ;
+    background-color:rgb(21, 235, 128);
+}
+
+@keyframes example{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+@media only screen and (max-width: 480px)
+{
+    #child1{
+        display:block;
+    }
+}
+
+@media only screen and (min-width: 481px)
+{
+    #child1{
+        display: flex;
+        flex-direction: row;
+    }
+}
